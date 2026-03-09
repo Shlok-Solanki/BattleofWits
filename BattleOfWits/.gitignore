@@ -1,0 +1,43 @@
+# C/C++ build outputs
+/build/
+/build-*/
+/out/
+/bin/
+/Debug/
+/Release/
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.log
+*.cache
+CMakeCache.txt
+CMakeFiles/
+cmake-install.cmake
+install_manifest.txt
+Testing/
+Makefile
+compile_commands.json
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project data/cache
+/data/*.json
+!data/cache.json
+
+# SFML/Assets generated
+/assets/**/*.wav
+/assets/**/*.mp3
+/assets/**/*.png
+/assets/**/*.jpg
